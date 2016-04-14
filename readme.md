@@ -1,8 +1,24 @@
-# Long ago, in a $HOME directory mounted several servers away . . .
+# Sean's dotfiles
 
-On OSX it works best with the latest ZSH (4.3.X).  You can get it via the following instructions:
+for OS X 10
 
-    # brew
-    brew update && brew install zsh
-    $EDITOR /etc/shells and add /usr/local/bin/zsh
-    chsh -s /usr/local/bin/zsh
+- zsh 
+
+### Installation
+
+Install zsh
+```
+brew install zsh
+sudo vim /etc/shells and add /usr/local/bin/zsh
+chsh -s /usr/local/bin/zsh
+```
+
+Clone rnd install repo
+
+```
+cd 
+git clone ....
+cd dotfiles
+./install.sh
+```
+
